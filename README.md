@@ -31,15 +31,24 @@ The best practices (and corresponding common errors) and evaluation methodology 
 There are two types of data associated with this project: (1) a list of measure names to analyze (2) supporting data. 
 
 ### Measure names
-This evaluation methodology was applied to two set of measure names.  The file [sample-eems.csv](data/sample-eems.csv) contains a random sample of 5% of the EEMs from the ASHRAE 1836-RP main list of EEMs. This list was used to evaluate the [ASHRAE 1836-RP standardized categorization system](https://github.com/retrofit-lab/ashrae-1836-rp-categorization). The file [nrel-wcms.csv](data/nrel-wcms.csv) contains a list of draft WCM names that were provided to the authors by the National Renewable Energy Lab and are intended for use in [BuildingSync](https://buildingsync.net/). 
+This evaluation methodology was applied to two sets of measure names.  
+- The file [sample-eems.csv](data/sample-eems.csv) contains a random sample of 5% of the EEMs from the ASHRAE 1836-RP main list of EEMs. This list was used to evaluate the [ASHRAE 1836-RP standardized categorization system](https://github.com/retrofit-lab/ashrae-1836-rp-categorization). 
+- The file [nrel-wcms-draft.csv](data/nrel-wcms-draft.csv) contains a list of draft WCM names that were provided to the authors by the National Renewable Energy Lab and are intended for use in [BuildingSync](https://buildingsync.net/). 
+
+The measure name files contain five variables (use these headers if you want to analyze your own list of measure names): 
+- `eem_id`: A unique ID assigned to each measure in the list.
+- `document` : An alphanumeric abbreviation code 3-6 characters in length representing the name of the original source document from which the measure was collected.
+- `cat_lev1`: The name of the Level 1 category (i.e., highest level) under which the measure was categorized in the original source document.
+- `cat_lev2`: The name of the Level 2 category (i.e., subcategory, if present), under which the measure was categorized in the original source document.  If a Level 2 category was not present, the value of this variable can be coded as “0” or left blank. 
+- `eem_name`: The name of the measure as written in the original source document.
 
 ### Supporting data
 Five supporting data files are used to evaluate the list of measure names for common errors that suggest that the measure name does not follow best practices.  
-- The file [tentative-terms.csv](data/tentative-terms.csv) contains a list of verbs that are tentative, and is used to evaluate **Common Error 1: Measure name describes a tentative action or non-action.**  
-- The file [action-terms.csv](data/action-terms.csv) contains a list of verbs used in measure names in 1836-RP, and is used to evaluate **Common Error 5: Measure name does not contain an action.**  
+- The file [tentative-terms.csv](data/tentative-terms.csv) contains a list of verbs that are tentative, and is used to evaluate **Common Error 1: Measure name describes a tentative action or non-action.** This list is a subset of the verbs from the `action-terms.csv`.    
+- The file [action-terms.csv](data/action-terms.csv) contains a list of verbs used in measure names in 1836-RP, and is used to evaluate **Common Error 5: Measure name does not contain an action.**  This list was developed from a list of the first words and verbs (as determined by a part-of-speech tagger) in the [ASHRAE 1836-RP main list of EEMs](https://github.com/retrofit-lab/ashrae-1836-rp-text-mining#ashrae-1836-rp-main-list-of-eems). Note that several of these terms could be used as verbs or nouns in a measure name context (e.g., vent, supply). 
 - The file [categorization-tags.csv](data/categorization-tags.csv) contains a list of building element terms from the [ASHRAE 1836-RP standardized categorization system] (https://github.com/retrofit-lab/ashrae-1836-rp-categorization), and is used to evaluate **Common Error 6: Measure name does not contain an element.**     
-- The file [vague-terms.csv](data/vague-terms.csv) contains a list of terms that are vague but commonly used in the energy efficiency industry, and is used to evaluate **Common Error 7: Measure name uses vague terminology.** 
-- The file [synonymous-terms.csv](data/synonymous-terms.csv) contains a list of synonymous terms and abbreviations that are commonly used in the energy efficiency industy, and is used to evaluate **Common Error 8: Measure name uses synonymous terminology.**
+- The file [vague-terms.csv](data/vague-terms.csv) contains a list of terms that are vague but commonly used in the energy efficiency industry, and is used to evaluate **Common Error 7: Measure name uses vague terminology.** This list was developed by reviewing a list of the terms used in the [ASHRAE 1836-RP main list of EEMs](https://github.com/retrofit-lab/ashrae-1836-rp-text-mining#ashrae-1836-rp-main-list-of-eems). Terms that imply non-specific performance requirements (e.g., "high efficiency", "optimal") were included in the list of vague terms; terms that imply acceptability (e.g., "adequate", "satisfactory") were not included in the list of vague terms. 
+- The file [synonymous-terms.csv](data/synonymous-terms.csv) contains a list of synonymous terms and abbreviations that are commonly used in the energy efficiency industy, and is used to evaluate **Common Error 8: Measure name uses synonymous terminology.** This list was developed by finding synonymous terms and abbreviations in the `categorization-tags.csv` file.  
 
 This list of terms is not exhaustive, but rather serves as an initial starting point that could be expanded in the future.
 
