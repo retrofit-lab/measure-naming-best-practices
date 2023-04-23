@@ -58,7 +58,7 @@ Five supporting data files are used to evaluate the list of measure names for co
 This list of terms is not exhaustive, but rather serves as an initial starting point that could be expanded in the future.
 
 ## Analysis
-The R script `measure-naming-analysis.R` replicates the analysis from the paper.  The results for the list of WCMs are shown here, as those results are presented in the paper. 
+The R script `measure-name-analysis.R` replicates the analysis from the paper.  The results for the list of WCMs are shown here, as those results are presented in the paper. 
 
 ### Setup
 It is recommended that you update to the latest versions of both R and RStudio (if using RStudio) prior to running this script. 
@@ -70,39 +70,40 @@ First, load (or install if you do not already have them installed) the packages 
 # Load required packages
 library(tidyverse)
 library(tidytext)
+library(textstem)
 ```
 
 #### Import list of measure names
-Import the list of measure names from the [nrel-wcms.csv](data/nrel-wcms.csv) file.  The relative filepaths in this script follow the same directory structure as this Github repository, and it is recommended that you use this same structure.  You might have to use `setwd()` to set the working directory to the location of the R script.  
+Import the list of measure names from the [nrel-wcms-draft.csv](data/nrel-wcms-draft.csv) file.  The relative filepaths in this script follow the same directory structure as this Github repository, and it is recommended that you use this same structure.  You might have to use `setwd()` to set the working directory to the location of the R script.  
 
 ```
 # Import list of measure names
-measure_list <- read_csv("../data/nrel-wcms.csv")
+measure_list <- read_csv("../data/nrel-wcms-draft.csv")
 ```
 
 ### Data pre-processing
 Each measure is tokenized into individual words.
 
 ```
-# Tokenize EEMs into single words
+# Tokenize measure names into single words
 tokenized_words <- measure_list %>% 
-  unnest_tokens(word, MeasureName, drop = FALSE) 
+  unnest_tokens(word, eem_name, drop = FALSE) 
 ```
 This produces a data frame with all of the tokens for each measure. The first 10 lines:
 
 ```
-   TechnologyCategory                                           MeasureName                      word       
-   <chr>                                                        <chr>                            <chr>      
- 1 AdvancedMeteringSystems and WaterAndSewerConservationSystems Install flow rate meters         install    
- 2 AdvancedMeteringSystems and WaterAndSewerConservationSystems Install flow rate meters         flow       
- 3 AdvancedMeteringSystems and WaterAndSewerConservationSystems Install flow rate meters         rate       
- 4 AdvancedMeteringSystems and WaterAndSewerConservationSystems Install flow rate meters         meters     
- 5 AlternativeWaterSources                                      Capture condensate               capture    
- 6 AlternativeWaterSources                                      Capture condensate               condensate 
- 7 AlternativeWaterSources                                      Reclaim wastewater               reclaim    
- 8 AlternativeWaterSources                                      Reclaim wastewater               wastewater 
- 9 AlternativeWaterSources                                      Use atmospheric water generation use        
-10 AlternativeWaterSources                                      Use atmospheric water generation atmospheric
+   eem_id document cat_lev1                                                     cat_lev2 eem_name                         word       
+    <dbl> <lgl>    <chr>                                                        <lgl>    <chr>                            <chr>      
+ 1      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         install    
+ 2      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         flow       
+ 3      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         rate       
+ 4      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         meters     
+ 5      2 NA       AlternativeWaterSources                                      NA       Capture condensate               capture    
+ 6      2 NA       AlternativeWaterSources                                      NA       Capture condensate               condensate 
+ 7      3 NA       AlternativeWaterSources                                      NA       Reclaim wastewater               reclaim    
+ 8      3 NA       AlternativeWaterSources                                      NA       Reclaim wastewater               wastewater 
+ 9      4 NA       AlternativeWaterSources                                      NA       Use atmospheric water generation use        
+10      4 NA       AlternativeWaterSources                                      NA       Use atmospheric water generation atmospheric
 ```
 
 ### Analysis and Results
@@ -114,7 +115,7 @@ The number of tokens in each measure name is counted.
 ```
 # Count tokens in each measure name
 token_count <- tokenized_words %>% 
-  group_by(MeasureName) %>% 
+  group_by(eem_name) %>% 
   count()
 ```
 
@@ -136,13 +137,12 @@ The first word of each measure name is extracted, on the assumption that the fir
 ```
 # Extract first word in each measure name
 first_word <- tokenized_words %>% 
-  group_by(TechnologyCategory, MeasureName) %>% 
+  group_by(cat_lev1, eem_name) %>% 
   slice_head(n = 1)
 ```
  
  The frequency of occurrence of each verb is counted and summarized in a table. Counts for the top 30 verbs:
- 
- 
+  
 |word      |  n|word      |  n|word     |  n|
 |:---------|--:|:---------|--:|:--------|--:|
 |install   | 40|hire      |  4|evaluate |  2|
@@ -168,18 +168,18 @@ tokenized_minus_stopwords <- tokenized_words %>%
 For reference, the list of stopwords being removed from each EEM is provided. The first 10 lines:
 
 ```
-   TechnologyCategory      MeasureName                                                  word 
-   <chr>                   <chr>                                                        <chr>
- 1 AlternativeWaterSources Use blowdown water for irrigation                            for  
- 2 AlternativeWaterSources Use discharged water from water purification processes       from 
- 3 BoilerPlantImprovements Blowdown accumulated dissolved solids and/or sludge          and  
- 4 BoilerPlantImprovements Blowdown accumulated dissolved solids and/or sludge          or   
- 5 BoilerPlantImprovements Implement condensate pump inspection and maintenance program and  
- 6 BoilerPlantImprovements Implement leak inspection and maintenance program            and  
- 7 BoilerPlantImprovements Inspect and fire side of boiler                              and  
- 8 BoilerPlantImprovements Inspect and fire side of boiler                              of   
- 9 BoilerPlantImprovements Install and maintain condensate return system                and  
-10 BoilerPlantImprovements Install meters on make-up lines                              on   
+   eem_id document cat_lev1                                                     cat_lev2 eem_name                         word       
+    <dbl> <lgl>    <chr>                                                        <lgl>    <chr>                            <chr>      
+ 1      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         install    
+ 2      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         flow       
+ 3      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         rate       
+ 4      1 NA       AdvancedMeteringSystems and WaterAndSewerConservationSystems NA       Install flow rate meters         meters     
+ 5      2 NA       AlternativeWaterSources                                      NA       Capture condensate               capture    
+ 6      2 NA       AlternativeWaterSources                                      NA       Capture condensate               condensate 
+ 7      3 NA       AlternativeWaterSources                                      NA       Reclaim wastewater               reclaim    
+ 8      3 NA       AlternativeWaterSources                                      NA       Reclaim wastewater               wastewater 
+ 9      4 NA       AlternativeWaterSources                                      NA       Use atmospheric water generation use        
+10      4 NA       AlternativeWaterSources                                      NA       Use atmospheric water generation atmospheric  
 ```
 
 The list of tokenized measure names without stopwords is then used to find the most frequently occurring words.  The top 10 words in this list:
@@ -204,7 +204,7 @@ The process for finding the top bigrams is similar, except that the measure name
 ```
 # Tokenize measures as bigrams
 bigram_tokens <- measure_list %>% 
-  unnest_tokens(bigram, MeasureName, 
+  unnest_tokens(bigram, eem_name, 
                 drop = FALSE, 
                 stopwords = stopwords::stopwords(source = "snowball"), 
                 token = "ngrams", n = 2)
@@ -236,47 +236,47 @@ As an example, for Common Error 1, the list of tentative action terms is importe
 # Import list of tentative verbs to search for
 tentative_terms <- read_csv("../data/tentative-terms.csv")
 
-# Search for and tag EEM names that contain tentative verbs
+# Search for and tag measure names that contain tentative verbs
 measure_list$Error_1 <- ifelse(grepl(paste0("\\b(", paste(tentative_terms$terms, collapse = "|"), ")\\b"), 
-                                     measure_list$MeasureName, ignore.case = T), 1, 0)
+                                     measure_list$eem_name, ignore.case = T), 1, 0)
 ```	   
 	   
 After all common errors have been evaluated, the `measure_list` contains seven additional columns indicating whether that error is present in a measure. The first 10 lines:
 	  
 ```
-   TechnologyCategory                                           MeasureName                          Error_1 Error_3 Error_4 Error_5 Error_6 Error_7 Error_8
-   <chr>                                                        <chr>                                  <dbl>   <dbl>   <dbl>   <dbl>   <dbl>   <dbl>   <dbl>
- 1 AdvancedMeteringSystems and WaterAndSewerConservationSystems Install flow rate meters                   0       0       0       0       1       0       0
- 2 AlternativeWaterSources                                      Capture condensate                         0       0       0       1       1       0       0
- 3 AlternativeWaterSources                                      Reclaim wastewater                         0       0       0       1       1       0       0
- 4 AlternativeWaterSources                                      Use atmospheric water generation           0       0       0       0       1       0       0
- 5 AlternativeWaterSources                                      Establish traditional wastewater tr~       0       0       0       1       1       0       0
- 6 AlternativeWaterSources                                      Install water harvesting system            0       0       0       0       1       0       0
- 7 AlternativeWaterSources                                      Use blowdown water for irrigation          0       0       0       0       1       0       0
- 8 AlternativeWaterSources                                      Use desalinated water                      0       0       0       0       1       0       0
- 9 AlternativeWaterSources                                      Use discharged water from water pur~       0       0       1       0       1       0       0
-10 AlternativeWaterSources                                      Use foundation water                       0       0       0       0       1       0       0
+   eem_id document cat_lev1                                       cat_lev2 eem_name Error_1 Error_3 Error_4 Error_5 Error_6 Error_7 Error_8
+    <dbl> <lgl>    <chr>                                          <lgl>    <chr>      <dbl>   <dbl>   <dbl>   <dbl>   <dbl>   <dbl>   <dbl>
+ 1      1 NA       AdvancedMeteringSystems and WaterAndSewerCons~ NA       Install~       0       0       0       0       0       0       0
+ 2      2 NA       AlternativeWaterSources                        NA       Capture~       0       0       0       0       1       0       0
+ 3      3 NA       AlternativeWaterSources                        NA       Reclaim~       0       0       0       0       1       0       0
+ 4      4 NA       AlternativeWaterSources                        NA       Use atm~       0       0       0       0       1       0       0
+ 5      5 NA       AlternativeWaterSources                        NA       Establi~       0       0       0       1       1       1       0
+ 6      6 NA       AlternativeWaterSources                        NA       Install~       0       0       0       0       1       0       0
+ 7      7 NA       AlternativeWaterSources                        NA       Use blo~       0       0       0       0       1       0       0
+ 8      8 NA       AlternativeWaterSources                        NA       Use des~       0       0       0       0       1       0       0
+ 9      9 NA       AlternativeWaterSources                        NA       Use dis~       0       0       0       0       1       0       0
+10     10 NA       AlternativeWaterSources                        NA       Use fou~       0       0       0       0       1       0       0
 ```
 
 The results are then summarized as the total number of errors for each category of measures:
 
 ```
-   TechnologyCategory                                  total_eems error1_count error3_count error4_count error5_count error6_count error7_count error8_count
-   <chr>                                                    <int>        <dbl>        <dbl>        <dbl>        <dbl>        <dbl>        <dbl>        <dbl>
- 1 AdvancedMeteringSystems and WaterAndSewerConservat~          1            0            0            0            0            1            0            0
- 2 AlternativeWaterSources                                     10            0            0            1            3           10            0            0
- 3 BoilerPlantImprovements                                     17            0            6            3            4           13            0            0
- 4 ChilledWaterHotWaterAndSteamDistributionSystems              7            0            1            3            0            7            0            0
- 5 ChillerPlantImprovements                                    13            2            5           11            1            0            1            2
- 6 InformationAndEducationProgram                               7            0            1            7            5            6            1            0
- 7 IrrigationSystems                                           19            3            2            4            9           17            3            1
- 8 KitchenImprovements                                         28            2            9           21            7           28            1            0
- 9 LaboratoryAndMedicalEquipments                              28            1           11           19            8           17            2            1
-10 LandscapingImprovements                                     21            2            6            4            9           21            0            0
-11 OtherHVAC                                                   16            4            5           12            4            6            0            2
-12 ToiletsAndUrinals                                           19            6            8           11           12            5            0            0
-13 WashingEquipmentAndTechiques                                18            1            5           13            3           10            0            0
-14 WaterAndSewerConservationSystems                            23            2           12           18            7           16            0            7
+   cat_lev1                           total_eems error1_count error3_count error4_count error5_count error6_count error7_count error8_count
+   <chr>                                   <int>        <dbl>        <dbl>        <dbl>        <dbl>        <dbl>        <dbl>        <dbl>
+ 1 AdvancedMeteringSystems and Water~          1            0            0            0            0            0            0            0
+ 2 AlternativeWaterSources                    10            0            0            0            1           10            1            0
+ 3 BoilerPlantImprovements                    17            3            2            1            2           12            1            0
+ 4 ChilledWaterHotWaterAndSteamDistr~          7            0            0            0            0            7            0            0
+ 5 ChillerPlantImprovements                   13            2            1            4            0            0            1            0
+ 6 InformationAndEducationProgram              7            0            0            0            3            6            1            0
+ 7 IrrigationSystems                          19            9            1            2            2           17            4            0
+ 8 KitchenImprovements                        28            4            5            6            1           28            4            0
+ 9 LaboratoryAndMedicalEquipments             28            4            4            8            4           17            4            0
+10 LandscapingImprovements                    21            7            3            0            4           21            1            0
+11 OtherHVAC                                  16            6            2            6            0            2            0            0
+12 ToiletsAndUrinals                          19            7            3            3            4            2            2            0
+13 WashingEquipmentAndTechiques               18            2            3            1            2           10            0            0
+14 WaterAndSewerConservationSystems           23            6            5            5            3           12            1            0
 ```
 	   
 Results for key tables are output as .csv files in the `/results/` directory. 	   
