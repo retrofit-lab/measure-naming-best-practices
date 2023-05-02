@@ -1,0 +1,228 @@
+﻿eem_id,document,cat_lev1,cat_lev2,eem_name
+1,,AdvancedMeteringSystems and WaterAndSewerConservationSystems,,Install flow rate meters
+2,,AlternativeWaterSources,,Capture condensate
+3,,AlternativeWaterSources,,Reclaim wastewater
+4,,AlternativeWaterSources,,Use atmospheric water generation
+5,,AlternativeWaterSources,,Establish traditional wastewater treatment plant
+6,,AlternativeWaterSources,,Install water harvesting system
+7,,AlternativeWaterSources,,Use blowdown water for irrigation
+8,,AlternativeWaterSources,,Use desalinated water
+9,,AlternativeWaterSources,,Use discharged water from water purification processes
+10,,AlternativeWaterSources,,Use foundation water
+11,,AlternativeWaterSources,,Use graywater
+12,,BoilerPlantImprovements,,Add automatic chemical feed system
+13,,BoilerPlantImprovements,,Add insulation
+14,,BoilerPlantImprovements,,Blowdown accumulated dissolved solids and/or sludge
+15,,BoilerPlantImprovements,,Implement boiler tuning program
+16,,BoilerPlantImprovements,,Implement condensate pump inspection and maintenance program
+17,,BoilerPlantImprovements,,Implement leak inspection and maintenance program
+18,,BoilerPlantImprovements,,Implement summer shutdown
+19,,BoilerPlantImprovements,,Inspect and fire side of boiler
+20,,BoilerPlantImprovements,,Install and maintain condensate return system
+21,,BoilerPlantImprovements,,Install automatic blowdown system
+22,,BoilerPlantImprovements,,Install blowdown heat exchanger
+23,,BoilerPlantImprovements,,Install expansion flash tank
+24,,BoilerPlantImprovements,,Install meters on make-up lines
+25,,BoilerPlantImprovements,,"Install small summer boiler, distributed system, or heat-capture system for reheat or dehumidification requirements"
+26,,BoilerPlantImprovements,,Monitor inert ion concentration
+27,,BoilerPlantImprovements,,Obtain water treatment services
+28,,BoilerPlantImprovements,,Replace with most life cycle cost-effective boiler
+29,,ChilledWaterHotWaterAndSteamDistributionSystems,,Implement ground penetration to detect leaks
+30,,ChilledWaterHotWaterAndSteamDistributionSystems,,Install fiber optics leak detection sensors
+31,,ChilledWaterHotWaterAndSteamDistributionSystems,,Install in-pipe leak detection sensors
+32,,ChilledWaterHotWaterAndSteamDistributionSystems,,Install noise loggers or listening sticks for leak detection
+33,,ChilledWaterHotWaterAndSteamDistributionSystems,,Use drone-operated thermal imaging for leak detection
+34,,ChilledWaterHotWaterAndSteamDistributionSystems,,Use hand-held thermal imaging for leak detection
+35,,ChilledWaterHotWaterAndSteamDistributionSystems,,Use satellite for leak detection
+36,,ChillerPlantImprovements,,Check the ratio of conductivity of blowdown and make-up water for cooling tower management
+37,,ChillerPlantImprovements,,Consider alternative water treatment options such as ozonation or ionization and chemical use for cooling tower 
+38,,ChillerPlantImprovements,,Implement a comprehensive air handler coil maintenance program for cooling tower management
+39,,ChillerPlantImprovements,,Implement advanced cooling tower controls
+40,,ChillerPlantImprovements,,Implement cooling tower water treatment programs
+41,,ChillerPlantImprovements,,Install automated chemical feed systems for cooling tower management
+42,,ChillerPlantImprovements,,Install conductivity controller for cooling tower management
+43,,ChillerPlantImprovements,,Install covers on open distribution decks on top of cooling tower 
+44,,ChillerPlantImprovements,,Install flow meters on make-up and blowdown lines for cooling tower management
+45,,ChillerPlantImprovements,,Install make-up water or side-stream softening system for cooling tower management
+46,,ChillerPlantImprovements,,Install side-stream filtration system for cooling tower management
+47,,ChillerPlantImprovements,,Use acid treatment for cooling tower management
+48,,ChillerPlantImprovements,,Use conductivity and flow meters for trouble shooting cooling tower management
+49,,InformationAndEducationProgram,,Conduct regular internal training workshops for water efficiency best practices
+50,,InformationAndEducationProgram,,Create internal column newsletter on water conservation
+51,,InformationAndEducationProgram,,Develop water saving programs with local utilities
+52,,InformationAndEducationProgram,,Establish internal communication system to report leaks
+53,,InformationAndEducationProgram,,Establish internal suggestion and incentive system for saving water
+54,,InformationAndEducationProgram,,Place signs internally near equipment on proper use to save water
+55,,InformationAndEducationProgram,,Share internal water usage to promote reduction
+56,,KitchenImprovements,,Clean ice machine water heat exchanger coils 
+57,,KitchenImprovements,,Eliminate ice machine single-pass cooling
+58,,KitchenImprovements,,Ensure adequate hose height for pre-rinse spray valves
+59,,KitchenImprovements,,Ensure final dishwasher rinse pressure within manufacture recommendation
+60,,KitchenImprovements,,Install dishwasher rack sensors
+61,,KitchenImprovements,,Install food disposal load sensing device
+62,,KitchenImprovements,,Install food disposal water stop timer
+63,,KitchenImprovements,,"Look for steam cookers with improved insulation, standby mode, and closed-system design"
+64,,KitchenImprovements,,Operate dishwasher at the minimum flow rate and rinse cycle with minimum time
+65,,KitchenImprovements,,Optimize the ice machine rinse cycle
+66,,KitchenImprovements,,Replace with ENERGY STAR-qualified high-efficiency commercial dishwashers
+67,,KitchenImprovements,,Replace with ENERGY STAR-qualified high-efficiency steam cookers or boilerless (connectionless) commercial steam cookers
+68,,KitchenImprovements,,Remove ice machine lime scale buildup and sanitize
+69,,KitchenImprovements,,Remove steam cooker deposits
+70,,KitchenImprovements,,Repair or replace broken ice machine components and repair leaks
+71,,KitchenImprovements,,Repair or replace broken steam cooker components and repair leaks
+72,,KitchenImprovements,,Repair or replace pre-rinse spray valves broken components and repair leaks 
+73,,KitchenImprovements,,Replace ice machine with devices that meet FEMP purchasing specifications or are ENERGY STAR-qualified
+74,,KitchenImprovements,,Run dishwashers at full capacity and hand scrape food before loading dishes
+75,,KitchenImprovements,,Select a steam cooker based on projected use
+76,,KitchenImprovements,,Shut off the water flow when food disposal isn’t being used
+77,,KitchenImprovements,,Size the dishwasher based on volume of service
+78,,KitchenImprovements,,Turn steam cooker to stand-by mode after each use 
+79,,KitchenImprovements,,Use batch production as opposed to staged loading of food pans for steam cookers
+80,,KitchenImprovements,,Use connectionless food steamer
+81,,KitchenImprovements,,Use food pulper instead of food disposal
+82,,KitchenImprovements,,Use food straining system for food disposal
+83,,KitchenImprovements,,Use WaterSense-qualified high efficiency pre-rinse spray valves 
+84,,LaboratoryAndMedicalEquipments,,Adjust the film processor flow to the minimum acceptable rate for Photographic and X-Ray Equipment
+85,,LaboratoryAndMedicalEquipments,,Check solenoids or automatic shut-off valves
+86,,LaboratoryAndMedicalEquipments,,"Chose ""dry"" vacuum pump or air-cooled system"
+87,,LaboratoryAndMedicalEquipments,,Chose digital equipment for Photographic and X-Ray Equipment
+88,,LaboratoryAndMedicalEquipments,,Encourage cleaning or custodial crews to report problems
+89,,LaboratoryAndMedicalEquipments,,Evaluate laboratory requirements for high-quality water for water purification systems
+90,,LaboratoryAndMedicalEquipments,,Evaluate water supply quality in water purification systems 
+91,,LaboratoryAndMedicalEquipments,,Implement leak report and maintenance program
+92,,LaboratoryAndMedicalEquipments,,Implement recovery and recirculating vaccum system
+93,,LaboratoryAndMedicalEquipments,,Install automatic shut-off feature
+94,,LaboratoryAndMedicalEquipments,,Install glassware washer water recycling system
+95,,LaboratoryAndMedicalEquipments,,Install pressure-reducing device
+96,,LaboratoryAndMedicalEquipments,,Install small expansion tank for discharge to the sewer for disinfection/sterilization systems
+97,,LaboratoryAndMedicalEquipments,,Optimize reverse osmosis systems for water purification systems 
+98,,LaboratoryAndMedicalEquipments,,Replace with glassware washer water-efficient equipment
+99,,LaboratoryAndMedicalEquipments,,Recycle rinse bath effluent as make-up for the developer/fixer solution for Photographic and X-Ray Equipment
+100,,LaboratoryAndMedicalEquipments,,Replace water purification systems with a higher recovery rate systems 
+101,,LaboratoryAndMedicalEquipments,,Replace with high efficiency disinfection/sterilization systems equipment
+102,,LaboratoryAndMedicalEquipments,,Replace worn parts and adjust mechanisms
+103,,LaboratoryAndMedicalEquipments,,Retrofit existing cage and rack washers or replace with more efficient models for Vivarium Equipment
+104,,LaboratoryAndMedicalEquipments,,Reuse concentrate produced by reverse osmosis treatment systems for nonpotable applications for water purification systems 
+105,,LaboratoryAndMedicalEquipments,,"Run washing equipment only when full; use newer, cleaner rinsing detergents; reduce the number of rinse cycles"
+106,,LaboratoryAndMedicalEquipments,,Set equipment to the minimum flow rates; Increase employee awareness
+107,,LaboratoryAndMedicalEquipments,,Sterilize and recirculate water used in automatic animal watering systems for Vivarium Equipment
+108,,LaboratoryAndMedicalEquipments,,Use alternative water for Vivarium Equipment
+109,,LaboratoryAndMedicalEquipments,,Use the lowest appropriate level of water quality for water purification system
+110,,LaboratoryAndMedicalEquipments,,Use tunnel washers for small cage-cleaning operations for Vivarium Equipment
+111,,LaboratoryAndMedicalEquipments,,Use water efficiency retrofit kit for disinfection/sterilization systems
+112,,OtherHVAC,,Add automatic control to shut off single-pass cooling equipment system during nights/weekends
+113,,OtherHVAC,,Add single-pass cooling equipment insulation
+114,,OtherHVAC,,Check entering and leaving water temperatures and flow rates for single-pass cooling equipment
+115,,OtherHVAC,,Check the operation of the single-pass cooling equipment water control valve
+116,,OtherHVAC,,Eliminate single-pass cooling
+117,,OtherHVAC,,Ensure evaporative cooler flow rates within manufacturer recommendations
+118,,OtherHVAC,,Find another use for the single-pass effluent in boiler make-up supply or landscape irrigation
+119,,OtherHVAC,,Implement automatic water supply shut-off procedures on evaporative coolers
+120,,OtherHVAC,,Install chiller and cooling tower or air-cooled chiller for single-pass cooling equipment
+121,,OtherHVAC,,Keep single-pass cooling equipment coil loops clean
+122,,OtherHVAC,,Monitor bleed-off water amounts on evaporative coolers
+123,,OtherHVAC,,Repair or replace broken components and repair leaks on evaporative coolers
+124,,OtherHVAC,,Replace evaporative coolers with device with efficiency rating <= 5 gallons per ton-hour of cooling 
+125,,OtherHVAC,,Replace the once-through cooling systems with a multi-pass cooling tower or closed loop system
+126,,OtherHVAC,,Replace water-cooled equipment with air-cooled equipment
+127,,OtherHVAC,,Use steam sterilizer condensate retrofit kit
+128,,IrrigationSystems,,Attach shut-off nozzles to handheld hoses
+129,,IrrigationSystems,,Consider all sources of alternative water for irrigation
+130,,IrrigationSystems,,Design irrigation system for maximum water distribution uniformity
+131,,IrrigationSystems,,Follow irrigation industry best management practices
+132,,IrrigationSystems,,Hire irrigation design company
+133,,IrrigationSystems,,Hire qualified irrigation auditor
+134,,IrrigationSystems,,Implement advanced demand-based irrigation controls
+135,,IrrigationSystems,,Increase sprinkler heads efficiency
+136,,IrrigationSystems,,Inquire water efficiency knowledge of vendor
+137,,IrrigationSystems,,Install irrigation meter
+138,,IrrigationSystems,,Install micro-irrigation or drip irrigation
+139,,IrrigationSystems,,Install sprinkler automatic shut-off device
+140,,IrrigationSystems,,Install real-time rain/soil-moisture/wind/freeze sensors
+141,,IrrigationSystems,,Recommend/train water-efficient irrigation contractors 
+142,,IrrigationSystems,,Replace timer-based irrigation controller with advanced control system based on weather/soil conditions
+143,,IrrigationSystems,,Require vendors have regular maintenance routines and include immediate reporting and repair of problems
+144,,IrrigationSystems,,Review irrigation service agreements
+145,,IrrigationSystems,,Use multi-Stream rotational sprinkler heads
+146,,IrrigationSystems,,Verify irrigation schedule
+147,,ToiletsAndUrinals,,Adjust tank toilet float
+148,,ToiletsAndUrinals,,Calibrate automatic sensors to limit toilet flushing
+149,,ToiletsAndUrinals,,Check building’s water pressure for toilets
+150,,ToiletsAndUrinals,,Check flush rating of replaced toilet flush valve insert
+151,,ToiletsAndUrinals,,Check the performance of toilet models
+152,,ToiletsAndUrinals,,"Check toilet tank water level, fill valve and flapper valve"
+153,,ToiletsAndUrinals,,"Clean and replace urinal sealant, cartridges, and material"
+154,,ToiletsAndUrinals,,"Consider valve design, restroom traffic, water quality, and operating system characteristics when deciding toilet flush valve type"
+155,,ToiletsAndUrinals,,Educate maintenance staff on toilet fixtures/parts
+156,,ToiletsAndUrinals,,Educate users on urinal water-saving benefits
+157,,ToiletsAndUrinals,,Ensure toilet valve and bowl have compatible flushing capacities
+158,,ToiletsAndUrinals,,Establish a user-friendly method to report toilet leaks
+159,,ToiletsAndUrinals,,Infrared or ultrasonic toilet flush sensors do not save water
+160,,ToiletsAndUrinals,,Inspect flushometer toilet and urinal valves 
+161,,ToiletsAndUrinals,,Recycle used toilet/urinal parts
+162,,ToiletsAndUrinals,,Replace flushometer-type toilets with high-efficiency toilets
+163,,ToiletsAndUrinals,,Replace residential tank-type toilets or urinals with WaterSense-labeled products or equivalent models
+164,,ToiletsAndUrinals,,Replace the bowl and valve when retrofitting to high-efficiency toilet flushometer fixtures
+165,,ToiletsAndUrinals,,Use alternative sources of non-potable water for toilet flushing
+166,,WashingEquipmentAndTechiques,,Calibrate and align nozzles and sensors properly in vehicle washing conveyor and in-bay systems
+167,,WashingEquipmentAndTechiques,,Encourage users and operators to wash only full laundry loads
+168,,WashingEquipmentAndTechiques,,Ensure vehicle washing flow rates within manufacturer recommendations
+169,,WashingEquipmentAndTechiques,,Implement vehicle washing automatic water supply shut-off procedures 
+170,,WashingEquipmentAndTechiques,,Implement vehicle washing wastewater recycling system
+171,,WashingEquipmentAndTechiques,,Install high-pressure vehicle washing system with hand-triggered spray nozzle
+172,,WashingEquipmentAndTechiques,,Install ozone system for laundry equipment
+173,,WashingEquipmentAndTechiques,,Program large commercial laundry equipment to use proper amount of water
+174,,WashingEquipmentAndTechiques,,Repair or replace laundry equipment broken components and repair leaks
+175,,WashingEquipmentAndTechiques,,Repair or replace vehicle washing broken components and repair leaks
+176,,WashingEquipmentAndTechiques,,Replace vehicle washing equipment with new rollover and conveyor equipment
+177,,WashingEquipmentAndTechiques,,Replace laundry equipment with ENERGY STAR-qualified machines 
+178,,WashingEquipmentAndTechiques,,Replace laundry equipment with tunnel washers
+179,,WashingEquipmentAndTechiques,,Replace laundry machines with water recycling systems
+180,,WashingEquipmentAndTechiques,,Retrofit existing laundry equipment to recycle the rinse water
+181,,WashingEquipmentAndTechiques,,Submeter the vehicle washing system
+182,,WashingEquipmentAndTechiques,,Use detergent formulated for the type of laundry equipment
+183,,WashingEquipmentAndTechiques,,Use high-quality detergents for vehicle washing 
+184,,LandscapingImprovements,,Add mulch to plant beds
+185,,LandscapingImprovements,,Aerate soil
+186,,LandscapingImprovements,,Alternate turf mowing height
+187,,LandscapingImprovements,,Create wetlands
+188,,LandscapingImprovements,,Eliminate strip grass
+189,,LandscapingImprovements,,Eliminate weeds
+190,,LandscapingImprovements,,Ensure trees planted at appropriate depth
+191,,LandscapingImprovements,,Extended Aeration
+192,,LandscapingImprovements,,Hire landscape contractors to report and fix problems
+193,,LandscapingImprovements,,Hire landscape designer
+194,,LandscapingImprovements,,Implement hydrozoning
+195,,LandscapingImprovements,,Implement low-impact landscape development techniques
+196,,LandscapingImprovements,,Install pond system
+197,,LandscapingImprovements,,Maintain sufficient quantity of topsoil
+198,,LandscapingImprovements,,Minimize turf area
+199,,LandscapingImprovements,,Recirculate and maintain decorative water sources
+200,,LandscapingImprovements,,Remove ornamental water features
+201,,LandscapingImprovements,,"Replace or install climate-appropriate, water-efficient plant material"
+202,,LandscapingImprovements,,Replant with drought-tolerant or climate appropriate plants
+203,,LandscapingImprovements,,Review landscape service and maintenance agreements
+204,,LandscapingImprovements,,Test soil nutrients and pH levels before landscape installation
+205,,WaterAndSewerConservationSystems,,Test faucet/showerhead system pressure
+206,,WaterAndSewerConservationSystems,,Add nearby clocks or distribute material to encourage shorter showers
+207,,WaterAndSewerConservationSystems,,Adjust and maintain automatic sensors on faucets/showerheads
+208,,WaterAndSewerConservationSystems,,"Automatic sensors on ""touchless"" faucets are not conservation devices"
+209,,WaterAndSewerConservationSystems,,Avoid water softeners with timers
+210,,WaterAndSewerConservationSystems,,Replace with faucet/showerhead models with a WaterSense label
+211,,WaterAndSewerConservationSystems,,Encourage cleaning/custodial crews to report faucet/showerhead problems
+212,,WaterAndSewerConservationSystems,,Ensure flow rates within manufacturer recommendations for water softners
+213,,WaterAndSewerConservationSystems,,Implement automatic water supply shut-off procedures for water softners 
+214,,WaterAndSewerConservationSystems,,Implement faucet/showerhead leak report and maintenance program
+215,,WaterAndSewerConservationSystems,,Install aerators or laminar flow devices with 0.5 gpm flow rate for lavatory faucet in public restrooms
+216,,WaterAndSewerConservationSystems,,Install aerators or laminar flow devices with 1.5 gpm flow rate restrooms 
+217,,WaterAndSewerConservationSystems,,Install aerators or laminar flow devices with low flow rate for kitchen faucet
+218,,WaterAndSewerConservationSystems,,Install faucet/showerhead expansion tanks and pressure reducing valves or reduce water heater settings 
+219,,WaterAndSewerConservationSystems,,Install intermittent sand filter or trickling filter
+220,,WaterAndSewerConservationSystems,,Install leak detection system
+221,,WaterAndSewerConservationSystems,,Install reactors: membrane bioreactor; sequencing batch reactor; moving bed biofilm reactors; submerged fixed bed biofilm reactor; or rotating biological contactors
+222,,WaterAndSewerConservationSystems,,Install temporary shut-off or foot-operated valves with kitchen faucets
+223,,WaterAndSewerConservationSystems,,Institute cathodic protection for metal material in the system
+224,,WaterAndSewerConservationSystems,,Manage system pressure at optimal levels
+225,,WaterAndSewerConservationSystems,,Repair leaks and/or replace piping
+226,,WaterAndSewerConservationSystems,,Repair or replace broken plumbing components for water softners
+227,,WaterAndSewerConservationSystems,,Replace water softener with one that regenerates

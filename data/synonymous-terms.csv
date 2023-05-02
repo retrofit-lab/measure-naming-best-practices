@@ -1,0 +1,33 @@
+uni_code,first_term,second_term,third_term,fourth_term
+B,envelope,building envelope,,
+B3010,cool roof,white roof,high albedo roof,reflective roof
+B3010,green roof,vegetated roof,,
+D2020,domestic Hot Water,DHW,,
+D2020,service hot water,SHW,service water heating,SWH
+D3010,combined heat and power,cogeneration,CHP,
+D3010,photovoltaic,PV,,
+D3040,air handling unit,AHU,air handler,
+D3040,variable air volume,VAV,,
+D3040,variable refrigerant flow,VRF,,
+D3040,energy recovery ventilator,ERV,heat recovery ventilator,HRV
+D3050,packaged RTU,RTU,rooftop unit,
+D3050,packaged terminal unit,Packaged terminal air conditioner,PTAC,
+D3050,packaged terminal heat pump,PTHP,,
+D3060,building automation system,BAS,,
+D3060,energy management system,EMS,energy management and controls system,EMCS
+D3060,thermostatic radiator valve,TRV,,
+D3060,direct digital control,DDC,,
+D3060,demand control ventilation,DCV,,
+D3060,outside air temperature,OA temperature,,
+D5020,CFL,compact fluorescent,,
+D5020,high intensity discharge,HID,,
+D5020,high pressure sodium,HPS,,
+D5020,LED,light emitting diode,,
+D5020,low pressure sodium,LPS,,
+D5020,T12,T 12,,
+D5020,T5,T 5,,
+D5020,T8,T 8,,
+X0000,infiltration,air leakage,air infiltration,
+X0000,electronically commutated motor,ECM,,
+X0000,variable frequency drive,variable speed drive,VSD,VFD
+X0000,advanced power strip,APS,,

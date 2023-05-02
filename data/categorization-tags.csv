@@ -1,0 +1,242 @@
+﻿keyword,type,uni_code,uni_level_1,uni_level_2,uni_level_3
+Foundation wall,Element,A1010,SUBSTRUCTURE,Foundations,Standard Foundations
+Slab,Element,A1030,SUBSTRUCTURE,Foundations,Slab on Grade
+Basement wall,Element,A2020,SUBSTRUCTURE,Basement Construction,Basement Walls
+Building envelope,Element,B,SHELL,Unassigned,Unassigned
+envelope,Element,B,SHELL,Unassigned,Unassigned
+Floor,Element,B1010,SHELL,Superstructure,Floor Construction
+Exterior Wall,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+Exterior shading,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+Air barrier,Descriptor,B2010,SHELL,Exterior Enclosure,Exterior Walls
+awning,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+fin,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+louver,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+overhang,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+screen,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+light shelf,Element,B2010,SHELL,Exterior Enclosure,Exterior Walls
+Curtain wall,Element,B2020,SHELL,Exterior Enclosure,Exterior Windows
+window,Element,B2020,SHELL,Exterior Enclosure,Exterior Windows
+Exterior door,Element,B2030,SHELL,Exterior Enclosure,Exterior Doors
+Roof,Element,B3010,SHELL,Roofing,Roof Coverings
+Cool roof,Descriptor,B3010,SHELL,Roofing,Roof Coverings
+white roof,Descriptor,B3010,SHELL,Roofing,Roof Coverings
+high albedo roof,Descriptor,B3010,SHELL,Roofing,Roof Coverings
+reflective roof,Descriptor,B3010,SHELL,Roofing,Roof Coverings
+Green roof,Descriptor,B3010,SHELL,Roofing,Roof Coverings
+vegetated roof,Descriptor,B3010,SHELL,Roofing,Roof Coverings
+Skylight,Element,B3020,SHELL,Roofing,Roof Openings
+Tubular skylight,Descriptor,B3020,SHELL,Roofing,Roof Openings
+Interior wall,Element,C1010,INTERIORS,Interior Construction,Partitions
+Interior door,Element,C1020,INTERIORS,Interior Construction,Interior Doors
+Interior wall finish,Element,C3010,INTERIORS,Interior Finishes,Wall Finishes
+Ceiling finish,Element,C3030,INTERIORS,Interior Finishes,Ceiling Finishes
+ceiling,Element,C3030,INTERIORS,Interior Finishes,Ceiling Finishes
+Elevator,Element,D1010,SERVICES,Conveying,Elevators & Lifts
+Escalator,Element,D1020,SERVICES,Conveying,Escalators & Moving Walks
+Sink,Element,D2010,SERVICES,Plumbing,Plumbing Fixtures
+faucet,Element,D2010,SERVICES,Plumbing,Plumbing Fixtures
+Shower,Element,D2010,SERVICES,Plumbing,Plumbing Fixtures
+showerhead,Element,D2010,SERVICES,Plumbing,Plumbing Fixtures
+Toilet,Element,D2010,SERVICES,Plumbing,Plumbing Fixtures
+Low flow,Descriptor,D2010,SERVICES,Plumbing,Plumbing Fixtures
+Water heater,Element,D2020,SERVICES,Plumbing,Domestic Water Distribution
+Domestic Hot Water,Element,D2020,SERVICES,Plumbing,Domestic Water Distribution
+DHW,Element,D2020,SERVICES,Plumbing,Domestic Water Distribution
+service hot water,Element,D2020,SERVICES,Plumbing,Domestic Water Distribution
+SHW,Element,D2020,SERVICES,Plumbing,Domestic Water Distribution
+service water heating,Element,D2020,SERVICES,Plumbing,Domestic Water Distribution
+SWH,Element,D2020,SERVICES,Plumbing,Domestic Water Distribution
+Tankless,Descriptor,D2020,SERVICES,Plumbing,Domestic Water Distribution
+instantaneous,Descriptor,D2020,SERVICES,Plumbing,Domestic Water Distribution
+Energy supply,Element,D3010,SERVICES,HVAC,Energy Supply
+Anaerobic biodigester,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+Combined heat and power,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+CHP,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+cogeneration,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+Fuel cell,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+Microturbine,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+Photovoltaic,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+PV,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+solar electric,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+Solar thermal,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+Wind,Descriptor,D3010,SERVICES,HVAC,Energy Supply
+Boiler,Element,D3020,SERVICES,HVAC,Heat Generating Systems
+Burner,Element,D3020,SERVICES,HVAC,Heat Generating Systems
+Chiller,Element,D3030,SERVICES,HVAC,Cooling Generating Systems
+Cooling tower,Element,D3030,SERVICES,HVAC,Cooling Generating Systems
+Condenser,Element,D3030,SERVICES,HVAC,Cooling Generating Systems
+Evaporative cooler,Element,D3030,SERVICES,HVAC,Cooling Generating Systems
+Thermal energy storage,Element,D3030,SERVICES,HVAC,Cooling Generating Systems
+thermal storage,Element,D3030,SERVICES,HVAC,Cooling Generating Systems
+air cooled,Descriptor,D3030,SERVICES,HVAC,Cooling Generating Systems
+Reciprocating,Descriptor,D3030,SERVICES,HVAC,Cooling Generating Systems
+Screw,Descriptor,D3030,SERVICES,HVAC,Cooling Generating Systems
+Scroll,Descriptor,D3030,SERVICES,HVAC,Cooling Generating Systems
+Water cooled,Descriptor,D3030,SERVICES,HVAC,Cooling Generating Systems
+Absorption chiller,Descriptor,D3030,SERVICES,HVAC,Cooling Generating Systems
+Vapor compression chiller,Descriptor,D3030,SERVICES,HVAC,Cooling Generating Systems
+Air handling unit,Element,D3040,SERVICES,HVAC,Distribution Systems
+AHU,Element,D3040,SERVICES,HVAC,Distribution Systems
+air handler,Element,D3040,SERVICES,HVAC,Distribution Systems
+Damper,Element,D3040,SERVICES,HVAC,Distribution Systems
+Duct,Element,D3040,SERVICES,HVAC,Distribution Systems
+Fan,Element,D3040,SERVICES,HVAC,Distribution Systems
+Economizer,Element,D3040,SERVICES,HVAC,Distribution Systems
+Terminal unit,Element,D3040,SERVICES,HVAC,Distribution Systems
+Steam trap,Element,D3040,SERVICES,HVAC,Distribution Systems
+Air distribution system,Element,D3040,SERVICES,HVAC,Distribution Systems
+Filter,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Variable air volume,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+VAV,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Variable refrigerant flow,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+VRF,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Exhaust,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Return,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Supply,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Fancoil unit,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Radiator,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Axial,Descriptor,D3040,SERVICES,HVAC,Distribution Systems
+Energy recovery ventilator,Element,D3040,SERVICES,HVAC,Distribution Systems
+ERV,Element,D3040,SERVICES,HVAC,Distribution Systems
+Heat recovery ventilator,Element,D3040,SERVICES,HVAC,Distribution Systems
+HRV,Element,D3040,SERVICES,HVAC,Distribution Systems
+Packaged RTU,Element,D3050,SERVICES,HVAC,Terminal & Package Units
+RTU,Element,D3050,SERVICES,HVAC,Terminal & Package Units
+rooftop unit,Element,D3050,SERVICES,HVAC,Terminal & Package Units
+Packaged terminal unit,Element,D3050,SERVICES,HVAC,Terminal & Package Units
+Packaged terminal air conditioner,Descriptor,D3050,SERVICES,HVAC,Terminal & Package Units
+PTAC,Descriptor,D3050,SERVICES,HVAC,Terminal & Package Units
+Packaged terminal heat pump,Descriptor,D3050,SERVICES,HVAC,Terminal & Package Units
+PTHP,Descriptor,D3050,SERVICES,HVAC,Terminal & Package Units
+Furnace,Element,D3050,SERVICES,HVAC,Terminal & Package Units
+Unit ventilator,Descriptor,D3050,SERVICES,HVAC,Terminal & Package Units
+Unit heater,Descriptor,D3050,SERVICES,HVAC,Terminal & Package Units
+Building automation system,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+BAS,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+Energy management and controls system,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+EMCS,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+Energy management system,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+EMS,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+Thermostat,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+Thermostatic radiator valve,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+TRV,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+Pneumatic,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Direct digital control,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+DDC,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Demand control ventilation,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+DCV,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+demand control,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+HVAC controls,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+controls,Element,D3060,SERVICES,HVAC,Controls & Instrumentation
+Reset,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Setback,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Static pressure,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Supply air temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Condensing temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Outside air temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+OA temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Room air temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Zone temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Supply chilled water temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Supply hot water temperature,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Scheduled,Descriptor,D3060,SERVICES,HVAC,Controls & Instrumentation
+Meter,Element,D5010,SERVICES,Electrical,Electrical Service & Distribution
+Transformer,Element,D5010,SERVICES,Electrical,Electrical Service & Distribution
+Ballast,Element,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Lamp,Element,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Luminaire,Element,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Reflector,Element,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Lighting controls,Element,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Exterior building lighting,Element,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Interior lighting,Element,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Compact fluorescent,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+CFL,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Fluorescent,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Halogen,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+High intensity discharge,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+HID,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+High pressure sodium,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+HPS,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Incandescent,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+LED,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+light emitting diode,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Low pressure sodium,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+LPS,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Mercury vapor,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Metal halide,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Neon,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+T12,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+T 12,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+T5,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+T 5,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+T8,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+T 8,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Electromagnetic,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+magnetic,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Electronic,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Pulse start,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Occupancy control,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+motion,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+occupancy,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+vacancy,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Daylight control,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+photosensor,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+photocell,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+daylight sensor,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Timeclock control,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+timeclock,Descriptor,D5020,SERVICES,Electrical,Lighting and Branch Wiring
+Power factor correction,Element,D5090,SERVICES,Electrical,Other Electrical Systems
+Equipment,Element,E10,EQUIPMENT & FURNISHINGS,Equipment,Unassigned
+plug loads,Element,E10,EQUIPMENT & FURNISHINGS,Equipment,Unassigned
+Computer,Element,E1010,EQUIPMENT & FURNISHINGS,Equipment,Commercial Equipment
+Server,Element,E1010,EQUIPMENT & FURNISHINGS,Equipment,Commercial Equipment
+Data Center,Element,E1010,EQUIPMENT & FURNISHINGS,Equipment,Commercial Equipment
+Vending Machine,Element,E1010,EQUIPMENT & FURNISHINGS,Equipment,Commercial Equipment
+Clothes dryer,Element,E1090,EQUIPMENT & FURNISHINGS,Equipment,Other Equipment
+Clothes washer,Element,E1090,EQUIPMENT & FURNISHINGS,Equipment,Other Equipment
+washing machine,Element,E1090,EQUIPMENT & FURNISHINGS,Equipment,Other Equipment
+Refrigerator,Element,E1090,EQUIPMENT & FURNISHINGS,Equipment,Other Equipment
+Refrigerated case,Element,E1090,EQUIPMENT & FURNISHINGS,Equipment,Other Equipment
+Anti sweat heater,Descriptor,E1090,EQUIPMENT & FURNISHINGS,Equipment,Other Equipment
+Interior shading,Element,E2010,EQUIPMENT & FURNISHINGS,Furnishings,Fixed Furnishings
+shade,Element,E2010,EQUIPMENT & FURNISHINGS,Furnishings,Fixed Furnishings
+blind,Element,E2010,EQUIPMENT & FURNISHINGS,Furnishings,Fixed Furnishings
+curtain,Element,E2010,EQUIPMENT & FURNISHINGS,Furnishings,Fixed Furnishings
+Ceiling fan,Element,E2010,EQUIPMENT & FURNISHINGS,Furnishings,Fixed Furnishings
+Centrifugal,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Insulation,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Air leakage,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+air infiltration,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+infiltration,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Radiant barrier,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Argon,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Low e,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+low emissivity,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Reflective,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Tinted,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Operable,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Weatherstrip,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Heat recovery,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Energy recovery,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Pipe,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Pump,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Compressor,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Diffuser,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Motor,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+ECM,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+electronically commutated motor,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Variable speed drive,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+VSD,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+variable frequency drive,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+VFD,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Heat pump,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Chilled water,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Glycol,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Hot water,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Steam,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Refrigerant,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Manual control,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+manual,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+Advanced power strip,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+APS,Descriptor,X0000,Unassigned,Unassigned,Unassigned
+ENERGY STAR,Descriptor,X0000,Unassigned,Unassigned,Unassigned
