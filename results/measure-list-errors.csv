@@ -1,0 +1,228 @@
+eem_id,document,cat_lev1,cat_lev2,eem_name,Error_1,Error_3,Error_4,Error_5,Error_6,Error_7,Error_8
+1,NA,AdvancedMeteringSystems and WaterAndSewerConservationSystems,NA,Install flow rate meters,0,0,0,0,0,0,0
+2,NA,AlternativeWaterSources,NA,Capture condensate,0,0,0,0,1,0,0
+3,NA,AlternativeWaterSources,NA,Reclaim wastewater,0,0,0,0,1,0,0
+4,NA,AlternativeWaterSources,NA,Use atmospheric water generation,0,0,0,0,1,0,0
+5,NA,AlternativeWaterSources,NA,Establish traditional wastewater treatment plant,0,0,0,1,1,1,0
+6,NA,AlternativeWaterSources,NA,Install water harvesting system,0,0,0,0,1,0,0
+7,NA,AlternativeWaterSources,NA,Use blowdown water for irrigation,0,0,0,0,1,0,0
+8,NA,AlternativeWaterSources,NA,Use desalinated water,0,0,0,0,1,0,0
+9,NA,AlternativeWaterSources,NA,Use discharged water from water purification processes,0,0,0,0,1,0,0
+10,NA,AlternativeWaterSources,NA,Use foundation water,0,0,0,0,1,0,0
+11,NA,AlternativeWaterSources,NA,Use graywater,0,0,0,0,1,0,0
+12,NA,BoilerPlantImprovements,NA,Add automatic chemical feed system,0,0,0,0,1,0,0
+13,NA,BoilerPlantImprovements,NA,Add insulation,0,0,0,0,1,0,0
+14,NA,BoilerPlantImprovements,NA,Blowdown accumulated dissolved solids and/or sludge,0,0,0,1,1,0,0
+15,NA,BoilerPlantImprovements,NA,Implement boiler tuning program,0,0,0,0,0,0,0
+16,NA,BoilerPlantImprovements,NA,Implement condensate pump inspection and maintenance program,0,0,0,0,1,0,0
+17,NA,BoilerPlantImprovements,NA,Implement leak inspection and maintenance program,0,0,0,0,1,0,0
+18,NA,BoilerPlantImprovements,NA,Implement summer shutdown,0,0,0,0,1,0,0
+19,NA,BoilerPlantImprovements,NA,Inspect and fire side of boiler,1,0,0,0,0,0,0
+20,NA,BoilerPlantImprovements,NA,Install and maintain condensate return system,1,1,0,0,1,0,0
+21,NA,BoilerPlantImprovements,NA,Install automatic blowdown system,0,0,0,0,1,0,0
+22,NA,BoilerPlantImprovements,NA,Install blowdown heat exchanger,0,0,0,0,1,0,0
+23,NA,BoilerPlantImprovements,NA,Install expansion flash tank,0,0,0,0,1,0,0
+24,NA,BoilerPlantImprovements,NA,Install meters on make-up lines,0,0,0,0,0,0,0
+25,NA,BoilerPlantImprovements,NA,"Install small summer boiler, distributed system, or heat-capture system for reheat or dehumidification requirements",0,1,1,0,0,0,0
+26,NA,BoilerPlantImprovements,NA,Monitor inert ion concentration,1,0,0,0,1,0,0
+27,NA,BoilerPlantImprovements,NA,Obtain water treatment services,0,0,0,1,1,0,0
+28,NA,BoilerPlantImprovements,NA,Replace with most life cycle cost-effective boiler,0,0,0,0,0,1,0
+29,NA,ChilledWaterHotWaterAndSteamDistributionSystems,NA,Implement ground penetration to detect leaks,0,0,0,0,1,0,0
+30,NA,ChilledWaterHotWaterAndSteamDistributionSystems,NA,Install fiber optics leak detection sensors,0,0,0,0,1,0,0
+31,NA,ChilledWaterHotWaterAndSteamDistributionSystems,NA,Install in-pipe leak detection sensors,0,0,0,0,1,0,0
+32,NA,ChilledWaterHotWaterAndSteamDistributionSystems,NA,Install noise loggers or listening sticks for leak detection,0,0,0,0,1,0,0
+33,NA,ChilledWaterHotWaterAndSteamDistributionSystems,NA,Use drone-operated thermal imaging for leak detection,0,0,0,0,1,0,0
+34,NA,ChilledWaterHotWaterAndSteamDistributionSystems,NA,Use hand-held thermal imaging for leak detection,0,0,0,0,1,0,0
+35,NA,ChilledWaterHotWaterAndSteamDistributionSystems,NA,Use satellite for leak detection,0,0,0,0,1,0,0
+36,NA,ChillerPlantImprovements,NA,Check the ratio of conductivity of blowdown and make-up water for cooling tower management,1,0,1,0,0,0,0
+37,NA,ChillerPlantImprovements,NA,Consider alternative water treatment options such as ozonation or ionization and chemical use for cooling tower,1,1,1,0,0,0,0
+38,NA,ChillerPlantImprovements,NA,Implement a comprehensive air handler coil maintenance program for cooling tower management,0,0,1,0,0,0,0
+39,NA,ChillerPlantImprovements,NA,Implement advanced cooling tower controls,0,0,0,0,0,1,0
+40,NA,ChillerPlantImprovements,NA,Implement cooling tower water treatment programs,0,0,0,0,0,0,0
+41,NA,ChillerPlantImprovements,NA,Install automated chemical feed systems for cooling tower management,0,0,0,0,0,0,0
+42,NA,ChillerPlantImprovements,NA,Install conductivity controller for cooling tower management,0,0,0,0,0,0,0
+43,NA,ChillerPlantImprovements,NA,Install covers on open distribution decks on top of cooling tower,0,0,1,0,0,0,0
+44,NA,ChillerPlantImprovements,NA,Install flow meters on make-up and blowdown lines for cooling tower management,0,0,1,0,0,0,0
+45,NA,ChillerPlantImprovements,NA,Install make-up water or side-stream softening system for cooling tower management,0,0,1,0,0,0,0
+46,NA,ChillerPlantImprovements,NA,Install side-stream filtration system for cooling tower management,0,0,0,0,0,0,0
+47,NA,ChillerPlantImprovements,NA,Use acid treatment for cooling tower management,0,0,0,0,0,0,0
+48,NA,ChillerPlantImprovements,NA,Use conductivity and flow meters for trouble shooting cooling tower management,0,0,1,0,0,0,0
+49,NA,InformationAndEducationProgram,NA,Conduct regular internal training workshops for water efficiency best practices,0,0,0,0,1,1,0
+50,NA,InformationAndEducationProgram,NA,Create internal column newsletter on water conservation,0,0,0,0,1,0,0
+51,NA,InformationAndEducationProgram,NA,Develop water saving programs with local utilities,0,0,0,0,1,0,0
+52,NA,InformationAndEducationProgram,NA,Establish internal communication system to report leaks,0,0,0,1,1,0,0
+53,NA,InformationAndEducationProgram,NA,Establish internal suggestion and incentive system for saving water,0,0,0,1,1,0,0
+54,NA,InformationAndEducationProgram,NA,Place signs internally near equipment on proper use to save water,0,0,1,0,0,0,0
+55,NA,InformationAndEducationProgram,NA,Share internal water usage to promote reduction,0,0,0,1,1,0,0
+56,NA,KitchenImprovements,NA,Clean ice machine water heat exchanger coils,0,0,0,0,1,0,0
+57,NA,KitchenImprovements,NA,Eliminate ice machine single-pass cooling,0,0,0,0,1,0,0
+58,NA,KitchenImprovements,NA,Ensure adequate hose height for pre-rinse spray valves,1,0,0,0,1,0,0
+59,NA,KitchenImprovements,NA,Ensure final dishwasher rinse pressure within manufacture recommendation,1,0,0,0,1,0,0
+60,NA,KitchenImprovements,NA,Install dishwasher rack sensors,0,0,0,0,1,0,0
+61,NA,KitchenImprovements,NA,Install food disposal load sensing device,0,0,0,0,1,0,0
+62,NA,KitchenImprovements,NA,Install food disposal water stop timer,0,0,0,0,1,0,0
+63,NA,KitchenImprovements,NA,"Look for steam cookers with improved insulation, standby mode, and closed-system design",1,0,1,1,1,0,0
+64,NA,KitchenImprovements,NA,Operate dishwasher at the minimum flow rate and rinse cycle with minimum time,0,0,1,0,1,0,0
+65,NA,KitchenImprovements,NA,Optimize the ice machine rinse cycle,0,0,0,0,1,1,0
+66,NA,KitchenImprovements,NA,Replace with ENERGY STAR-qualified high-efficiency commercial dishwashers,0,0,0,0,1,1,0
+67,NA,KitchenImprovements,NA,Replace with ENERGY STAR-qualified high-efficiency steam cookers or boilerless (connectionless) commercial steam cookers,0,0,1,0,1,1,0
+68,NA,KitchenImprovements,NA,Remove ice machine lime scale buildup and sanitize,0,1,0,0,1,0,0
+69,NA,KitchenImprovements,NA,Remove steam cooker deposits,0,0,0,0,1,0,0
+70,NA,KitchenImprovements,NA,Repair or replace broken ice machine components and repair leaks,0,1,0,0,1,0,0
+71,NA,KitchenImprovements,NA,Repair or replace broken steam cooker components and repair leaks,0,1,0,0,1,0,0
+72,NA,KitchenImprovements,NA,Repair or replace pre-rinse spray valves broken components and repair leaks,0,1,1,0,1,0,0
+73,NA,KitchenImprovements,NA,Replace ice machine with devices that meet FEMP purchasing specifications or are ENERGY STAR-qualified,1,1,1,0,1,0,0
+74,NA,KitchenImprovements,NA,Run dishwashers at full capacity and hand scrape food before loading dishes,0,0,1,0,1,0,0
+75,NA,KitchenImprovements,NA,Select a steam cooker based on projected use,0,0,0,0,1,0,0
+76,NA,KitchenImprovements,NA,Shut off the water flow when food disposal isn’t being used,0,0,1,0,1,0,0
+77,NA,KitchenImprovements,NA,Size the dishwasher based on volume of service,0,0,0,0,1,0,0
+78,NA,KitchenImprovements,NA,Turn steam cooker to stand-by mode after each use,0,0,0,0,1,0,0
+79,NA,KitchenImprovements,NA,Use batch production as opposed to staged loading of food pans for steam cookers,0,0,1,0,1,0,0
+80,NA,KitchenImprovements,NA,Use connectionless food steamer,0,0,0,0,1,0,0
+81,NA,KitchenImprovements,NA,Use food pulper instead of food disposal,0,0,0,0,1,0,0
+82,NA,KitchenImprovements,NA,Use food straining system for food disposal,0,0,0,0,1,0,0
+83,NA,KitchenImprovements,NA,Use WaterSense-qualified high efficiency pre-rinse spray valves,0,0,0,0,1,1,0
+84,NA,LaboratoryAndMedicalEquipments,NA,Adjust the film processor flow to the minimum acceptable rate for Photographic and X-Ray Equipment,0,0,1,0,0,0,0
+85,NA,LaboratoryAndMedicalEquipments,NA,Check solenoids or automatic shut-off valves,1,0,0,0,1,0,0
+86,NA,LaboratoryAndMedicalEquipments,NA,"Chose ""dry"" vacuum pump or air-cooled system",0,0,0,1,1,0,0
+87,NA,LaboratoryAndMedicalEquipments,NA,Chose digital equipment for Photographic and X-Ray Equipment,0,0,0,1,0,0,0
+88,NA,LaboratoryAndMedicalEquipments,NA,Encourage cleaning or custodial crews to report problems,1,0,0,0,1,0,0
+89,NA,LaboratoryAndMedicalEquipments,NA,Evaluate laboratory requirements for high-quality water for water purification systems,1,0,0,0,1,0,0
+90,NA,LaboratoryAndMedicalEquipments,NA,Evaluate water supply quality in water purification systems,1,0,0,0,1,0,0
+91,NA,LaboratoryAndMedicalEquipments,NA,Implement leak report and maintenance program,0,0,0,0,1,0,0
+92,NA,LaboratoryAndMedicalEquipments,NA,Implement recovery and recirculating vaccum system,0,0,0,0,1,0,0
+93,NA,LaboratoryAndMedicalEquipments,NA,Install automatic shut-off feature,0,0,0,0,1,0,0
+94,NA,LaboratoryAndMedicalEquipments,NA,Install glassware washer water recycling system,0,0,0,0,1,0,0
+95,NA,LaboratoryAndMedicalEquipments,NA,Install pressure-reducing device,0,0,0,0,1,0,0
+96,NA,LaboratoryAndMedicalEquipments,NA,Install small expansion tank for discharge to the sewer for disinfection/sterilization systems,0,0,1,0,1,0,0
+97,NA,LaboratoryAndMedicalEquipments,NA,Optimize reverse osmosis systems for water purification systems,0,0,0,0,1,1,0
+98,NA,LaboratoryAndMedicalEquipments,NA,Replace with glassware washer water-efficient equipment,0,0,0,0,0,1,0
+99,NA,LaboratoryAndMedicalEquipments,NA,Recycle rinse bath effluent as make-up for the developer/fixer solution for Photographic and X-Ray Equipment,0,0,1,0,0,0,0
+100,NA,LaboratoryAndMedicalEquipments,NA,Replace water purification systems with a higher recovery rate systems,0,0,0,0,1,0,0
+101,NA,LaboratoryAndMedicalEquipments,NA,Replace with high efficiency disinfection/sterilization systems equipment,0,0,0,0,0,1,0
+102,NA,LaboratoryAndMedicalEquipments,NA,Replace worn parts and adjust mechanisms,0,1,0,0,1,0,0
+103,NA,LaboratoryAndMedicalEquipments,NA,Retrofit existing cage and rack washers or replace with more efficient models for Vivarium Equipment,0,1,1,0,0,1,0
+104,NA,LaboratoryAndMedicalEquipments,NA,Reuse concentrate produced by reverse osmosis treatment systems for nonpotable applications for water purification systems,0,0,1,1,1,0,0
+105,NA,LaboratoryAndMedicalEquipments,NA,"Run washing equipment only when full; use newer, cleaner rinsing detergents; reduce the number of rinse cycles",0,1,1,0,0,0,0
+106,NA,LaboratoryAndMedicalEquipments,NA,Set equipment to the minimum flow rates; Increase employee awareness,0,1,0,0,0,0,0
+107,NA,LaboratoryAndMedicalEquipments,NA,Sterilize and recirculate water used in automatic animal watering systems for Vivarium Equipment,0,0,1,1,0,0,0
+108,NA,LaboratoryAndMedicalEquipments,NA,Use alternative water for Vivarium Equipment,0,0,0,0,0,0,0
+109,NA,LaboratoryAndMedicalEquipments,NA,Use the lowest appropriate level of water quality for water purification system,0,0,1,0,1,0,0
+110,NA,LaboratoryAndMedicalEquipments,NA,Use tunnel washers for small cage-cleaning operations for Vivarium Equipment,0,0,0,0,0,0,0
+111,NA,LaboratoryAndMedicalEquipments,NA,Use water efficiency retrofit kit for disinfection/sterilization systems,0,0,0,0,1,0,0
+112,NA,OtherHVAC,NA,Add automatic control to shut off single-pass cooling equipment system during nights/weekends,0,0,1,0,0,0,0
+113,NA,OtherHVAC,NA,Add single-pass cooling equipment insulation,0,0,0,0,0,0,0
+114,NA,OtherHVAC,NA,Check entering and leaving water temperatures and flow rates for single-pass cooling equipment,1,0,1,0,0,0,0
+115,NA,OtherHVAC,NA,Check the operation of the single-pass cooling equipment water control valve,1,0,1,0,0,0,0
+116,NA,OtherHVAC,NA,Eliminate single-pass cooling,0,0,0,0,1,0,0
+117,NA,OtherHVAC,NA,Ensure evaporative cooler flow rates within manufacturer recommendations,1,0,0,0,0,0,0
+118,NA,OtherHVAC,NA,Find another use for the single-pass effluent in boiler make-up supply or landscape irrigation,1,1,1,0,0,0,0
+119,NA,OtherHVAC,NA,Implement automatic water supply shut-off procedures on evaporative coolers,0,0,0,0,0,0,0
+120,NA,OtherHVAC,NA,Install chiller and cooling tower or air-cooled chiller for single-pass cooling equipment,0,0,1,0,0,0,0
+121,NA,OtherHVAC,NA,Keep single-pass cooling equipment coil loops clean,1,0,0,0,0,0,0
+122,NA,OtherHVAC,NA,Monitor bleed-off water amounts on evaporative coolers,1,0,0,0,0,0,0
+123,NA,OtherHVAC,NA,Repair or replace broken components and repair leaks on evaporative coolers,0,1,1,0,0,0,0
+124,NA,OtherHVAC,NA,Replace evaporative coolers with device with efficiency rating <= 5 gallons per ton-hour of cooling,0,0,1,0,0,0,0
+125,NA,OtherHVAC,NA,Replace the once-through cooling systems with a multi-pass cooling tower or closed loop system,0,0,1,0,0,0,0
+126,NA,OtherHVAC,NA,Replace water-cooled equipment with air-cooled equipment,0,0,0,0,0,0,0
+127,NA,OtherHVAC,NA,Use steam sterilizer condensate retrofit kit,0,0,0,0,1,0,0
+128,NA,IrrigationSystems,NA,Attach shut-off nozzles to handheld hoses,0,0,0,1,1,0,0
+129,NA,IrrigationSystems,NA,Consider all sources of alternative water for irrigation,1,0,0,0,1,0,0
+130,NA,IrrigationSystems,NA,Design irrigation system for maximum water distribution uniformity,1,0,0,0,1,0,0
+131,NA,IrrigationSystems,NA,Follow irrigation industry best management practices,1,0,0,0,1,1,0
+132,NA,IrrigationSystems,NA,Hire irrigation design company,1,0,0,0,1,0,0
+133,NA,IrrigationSystems,NA,Hire qualified irrigation auditor,1,0,0,0,1,0,0
+134,NA,IrrigationSystems,NA,Implement advanced demand-based irrigation controls,0,0,0,0,0,1,0
+135,NA,IrrigationSystems,NA,Increase sprinkler heads efficiency,0,0,0,0,1,0,0
+136,NA,IrrigationSystems,NA,Inquire water efficiency knowledge of vendor,0,0,0,1,1,0,0
+137,NA,IrrigationSystems,NA,Install irrigation meter,0,0,0,0,0,0,0
+138,NA,IrrigationSystems,NA,Install micro-irrigation or drip irrigation,0,0,0,0,1,0,0
+139,NA,IrrigationSystems,NA,Install sprinkler automatic shut-off device,0,0,0,0,1,0,0
+140,NA,IrrigationSystems,NA,Install real-time rain/soil-moisture/wind/freeze sensors,0,0,0,0,1,0,0
+141,NA,IrrigationSystems,NA,Recommend/train water-efficient irrigation contractors,1,0,0,0,1,1,0
+142,NA,IrrigationSystems,NA,Replace timer-based irrigation controller with advanced control system based on weather/soil conditions,0,0,1,0,1,1,0
+143,NA,IrrigationSystems,NA,Require vendors have regular maintenance routines and include immediate reporting and repair of problems,1,1,1,0,1,0,0
+144,NA,IrrigationSystems,NA,Review irrigation service agreements,1,0,0,0,1,0,0
+145,NA,IrrigationSystems,NA,Use multi-Stream rotational sprinkler heads,0,0,0,0,1,0,0
+146,NA,IrrigationSystems,NA,Verify irrigation schedule,1,0,0,0,1,0,0
+147,NA,ToiletsAndUrinals,NA,Adjust tank toilet float,0,0,0,0,0,0,0
+148,NA,ToiletsAndUrinals,NA,Calibrate automatic sensors to limit toilet flushing,0,0,0,0,0,0,0
+149,NA,ToiletsAndUrinals,NA,Check building’s water pressure for toilets,1,0,0,0,0,0,0
+150,NA,ToiletsAndUrinals,NA,Check flush rating of replaced toilet flush valve insert,1,0,0,0,0,0,0
+151,NA,ToiletsAndUrinals,NA,Check the performance of toilet models,1,0,0,0,0,0,0
+152,NA,ToiletsAndUrinals,NA,"Check toilet tank water level, fill valve and flapper valve",1,1,0,0,0,0,0
+153,NA,ToiletsAndUrinals,NA,"Clean and replace urinal sealant, cartridges, and material",0,1,0,0,1,0,0
+154,NA,ToiletsAndUrinals,NA,"Consider valve design, restroom traffic, water quality, and operating system characteristics when deciding toilet flush valve type",1,1,1,0,0,0,0
+155,NA,ToiletsAndUrinals,NA,Educate maintenance staff on toilet fixtures/parts,0,0,0,1,0,0,0
+156,NA,ToiletsAndUrinals,NA,Educate users on urinal water-saving benefits,0,0,0,1,1,0,0
+157,NA,ToiletsAndUrinals,NA,Ensure toilet valve and bowl have compatible flushing capacities,1,0,0,0,0,0,0
+158,NA,ToiletsAndUrinals,NA,Establish a user-friendly method to report toilet leaks,0,0,0,1,0,0,0
+159,NA,ToiletsAndUrinals,NA,Infrared or ultrasonic toilet flush sensors do not save water,0,0,0,1,0,0,0
+160,NA,ToiletsAndUrinals,NA,Inspect flushometer toilet and urinal valves,1,0,0,0,0,0,0
+161,NA,ToiletsAndUrinals,NA,Recycle used toilet/urinal parts,0,0,0,0,0,0,0
+162,NA,ToiletsAndUrinals,NA,Replace flushometer-type toilets with high-efficiency toilets,0,0,0,0,0,1,0
+163,NA,ToiletsAndUrinals,NA,Replace residential tank-type toilets or urinals with WaterSense-labeled products or equivalent models,0,0,1,0,0,0,0
+164,NA,ToiletsAndUrinals,NA,Replace the bowl and valve when retrofitting to high-efficiency toilet flushometer fixtures,0,0,1,0,0,1,0
+165,NA,ToiletsAndUrinals,NA,Use alternative sources of non-potable water for toilet flushing,0,0,0,0,0,0,0
+166,NA,WashingEquipmentAndTechiques,NA,Calibrate and align nozzles and sensors properly in vehicle washing conveyor and in-bay systems,0,1,1,0,1,0,0
+167,NA,WashingEquipmentAndTechiques,NA,Encourage users and operators to wash only full laundry loads,1,0,0,0,1,0,0
+168,NA,WashingEquipmentAndTechiques,NA,Ensure vehicle washing flow rates within manufacturer recommendations,1,0,0,0,1,0,0
+169,NA,WashingEquipmentAndTechiques,NA,Implement vehicle washing automatic water supply shut-off procedures,0,0,0,0,1,0,0
+170,NA,WashingEquipmentAndTechiques,NA,Implement vehicle washing wastewater recycling system,0,0,0,0,1,0,0
+171,NA,WashingEquipmentAndTechiques,NA,Install high-pressure vehicle washing system with hand-triggered spray nozzle,0,0,0,0,1,0,0
+172,NA,WashingEquipmentAndTechiques,NA,Install ozone system for laundry equipment,0,0,0,0,0,0,0
+173,NA,WashingEquipmentAndTechiques,NA,Program large commercial laundry equipment to use proper amount of water,0,0,1,1,0,0,0
+174,NA,WashingEquipmentAndTechiques,NA,Repair or replace laundry equipment broken components and repair leaks,0,1,0,0,0,0,0
+175,NA,WashingEquipmentAndTechiques,NA,Repair or replace vehicle washing broken components and repair leaks,0,1,0,0,1,0,0
+176,NA,WashingEquipmentAndTechiques,NA,Replace vehicle washing equipment with new rollover and conveyor equipment,0,0,0,0,0,0,0
+177,NA,WashingEquipmentAndTechiques,NA,Replace laundry equipment with ENERGY STAR-qualified machines,0,0,0,0,0,0,0
+178,NA,WashingEquipmentAndTechiques,NA,Replace laundry equipment with tunnel washers,0,0,0,0,0,0,0
+179,NA,WashingEquipmentAndTechiques,NA,Replace laundry machines with water recycling systems,0,0,0,0,1,0,0
+180,NA,WashingEquipmentAndTechiques,NA,Retrofit existing laundry equipment to recycle the rinse water,0,0,0,0,0,0,0
+181,NA,WashingEquipmentAndTechiques,NA,Submeter the vehicle washing system,0,0,0,1,1,0,0
+182,NA,WashingEquipmentAndTechiques,NA,Use detergent formulated for the type of laundry equipment,0,0,0,0,0,0,0
+183,NA,WashingEquipmentAndTechiques,NA,Use high-quality detergents for vehicle washing,0,0,0,0,1,0,0
+184,NA,LandscapingImprovements,NA,Add mulch to plant beds,0,0,0,0,1,0,0
+185,NA,LandscapingImprovements,NA,Aerate soil,0,0,0,1,1,0,0
+186,NA,LandscapingImprovements,NA,Alternate turf mowing height,0,0,0,1,1,0,0
+187,NA,LandscapingImprovements,NA,Create wetlands,0,0,0,0,1,0,0
+188,NA,LandscapingImprovements,NA,Eliminate strip grass,0,0,0,0,1,0,0
+189,NA,LandscapingImprovements,NA,Eliminate weeds,0,0,0,0,1,0,0
+190,NA,LandscapingImprovements,NA,Ensure trees planted at appropriate depth,1,0,0,0,1,0,0
+191,NA,LandscapingImprovements,NA,Extended Aeration,0,0,0,1,1,0,0
+192,NA,LandscapingImprovements,NA,Hire landscape contractors to report and fix problems,1,1,0,0,1,0,0
+193,NA,LandscapingImprovements,NA,Hire landscape designer,1,0,0,0,1,0,0
+194,NA,LandscapingImprovements,NA,Implement hydrozoning,0,0,0,0,1,0,0
+195,NA,LandscapingImprovements,NA,Implement low-impact landscape development techniques,0,0,0,0,1,0,0
+196,NA,LandscapingImprovements,NA,Install pond system,0,0,0,0,1,0,0
+197,NA,LandscapingImprovements,NA,Maintain sufficient quantity of topsoil,1,0,0,0,1,0,0
+198,NA,LandscapingImprovements,NA,Minimize turf area,0,0,0,0,1,0,0
+199,NA,LandscapingImprovements,NA,Recirculate and maintain decorative water sources,1,1,0,0,1,0,0
+200,NA,LandscapingImprovements,NA,Remove ornamental water features,0,0,0,0,1,0,0
+201,NA,LandscapingImprovements,NA,"Replace or install climate-appropriate, water-efficient plant material",0,1,0,0,1,1,0
+202,NA,LandscapingImprovements,NA,Replant with drought-tolerant or climate appropriate plants,0,0,0,1,1,0,0
+203,NA,LandscapingImprovements,NA,Review landscape service and maintenance agreements,1,0,0,0,1,0,0
+204,NA,LandscapingImprovements,NA,Test soil nutrients and pH levels before landscape installation,1,0,0,0,1,0,0
+205,NA,WaterAndSewerConservationSystems,NA,Test faucet/showerhead system pressure,1,0,0,0,0,0,0
+206,NA,WaterAndSewerConservationSystems,NA,Add nearby clocks or distribute material to encourage shorter showers,1,1,0,0,0,0,0
+207,NA,WaterAndSewerConservationSystems,NA,Adjust and maintain automatic sensors on faucets/showerheads,1,1,0,0,0,0,0
+208,NA,WaterAndSewerConservationSystems,NA,"Automatic sensors on ""touchless"" faucets are not conservation devices",0,0,0,1,0,0,0
+209,NA,WaterAndSewerConservationSystems,NA,Avoid water softeners with timers,1,0,0,0,1,0,0
+210,NA,WaterAndSewerConservationSystems,NA,Replace with faucet/showerhead models with a WaterSense label,0,0,0,0,0,0,0
+211,NA,WaterAndSewerConservationSystems,NA,Encourage cleaning/custodial crews to report faucet/showerhead problems,1,0,0,0,0,0,0
+212,NA,WaterAndSewerConservationSystems,NA,Ensure flow rates within manufacturer recommendations for water softners,1,0,0,0,1,0,0
+213,NA,WaterAndSewerConservationSystems,NA,Implement automatic water supply shut-off procedures for water softners,0,0,0,0,1,0,0
+214,NA,WaterAndSewerConservationSystems,NA,Implement faucet/showerhead leak report and maintenance program,0,0,0,0,0,0,0
+215,NA,WaterAndSewerConservationSystems,NA,Install aerators or laminar flow devices with 0.5 gpm flow rate for lavatory faucet in public restrooms,0,0,1,0,0,0,0
+216,NA,WaterAndSewerConservationSystems,NA,Install aerators or laminar flow devices with 1.5 gpm flow rate restrooms,0,0,1,0,1,0,0
+217,NA,WaterAndSewerConservationSystems,NA,Install aerators or laminar flow devices with low flow rate for kitchen faucet,0,0,1,0,0,0,0
+218,NA,WaterAndSewerConservationSystems,NA,Install faucet/showerhead expansion tanks and pressure reducing valves or reduce water heater settings,0,1,1,0,0,0,0
+219,NA,WaterAndSewerConservationSystems,NA,Install intermittent sand filter or trickling filter,0,0,0,0,1,0,0
+220,NA,WaterAndSewerConservationSystems,NA,Install leak detection system,0,0,0,0,1,0,0
+221,NA,WaterAndSewerConservationSystems,NA,Install reactors: membrane bioreactor; sequencing batch reactor; moving bed biofilm reactors; submerged fixed bed biofilm reactor; or rotating biological contactors,0,0,1,0,1,0,0
+222,NA,WaterAndSewerConservationSystems,NA,Install temporary shut-off or foot-operated valves with kitchen faucets,0,0,0,0,0,0,0
+223,NA,WaterAndSewerConservationSystems,NA,Institute cathodic protection for metal material in the system,0,0,0,1,1,0,0
+224,NA,WaterAndSewerConservationSystems,NA,Manage system pressure at optimal levels,0,0,0,1,1,1,0
+225,NA,WaterAndSewerConservationSystems,NA,Repair leaks and/or replace piping,0,1,0,0,1,0,0
+226,NA,WaterAndSewerConservationSystems,NA,Repair or replace broken plumbing components for water softners,0,1,0,0,1,0,0
+227,NA,WaterAndSewerConservationSystems,NA,Replace water softener with one that regenerates,0,0,0,0,1,0,0

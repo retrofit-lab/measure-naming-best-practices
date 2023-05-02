@@ -1,0 +1,15 @@
+cat_lev1,total_eems,error1_count,error3_count,error4_count,error5_count,error6_count,error7_count,error8_count
+AdvancedMeteringSystems and WaterAndSewerConservationSystems,1,0,0,0,0,0,0,0
+AlternativeWaterSources,10,0,0,0,1,10,1,0
+BoilerPlantImprovements,17,3,2,1,2,12,1,0
+ChilledWaterHotWaterAndSteamDistributionSystems,7,0,0,0,0,7,0,0
+ChillerPlantImprovements,13,2,1,7,0,0,1,0
+InformationAndEducationProgram,7,0,0,1,3,6,1,0
+IrrigationSystems,19,9,1,2,2,17,4,0
+KitchenImprovements,28,4,5,8,1,28,4,0
+LaboratoryAndMedicalEquipments,28,4,4,8,4,17,4,0
+LandscapingImprovements,21,7,3,0,4,21,1,0
+OtherHVAC,16,6,2,8,0,2,0,0
+ToiletsAndUrinals,19,7,3,3,4,2,2,0
+WashingEquipmentAndTechiques,18,2,3,2,2,10,0,0
+WaterAndSewerConservationSystems,23,6,5,5,3,12,1,0
