@@ -33,7 +33,7 @@ There are two types of data associated with this project: (1) a list of measure 
 ### Measure names
 This evaluation methodology was applied to two sets of measure names.  
 - The file [sample-eems.csv](data/sample-eems.csv) contains a random sample of 5% of the EEMs from the ASHRAE 1836-RP main list of EEMs. This list was used to evaluate the [ASHRAE 1836-RP standardized categorization system](https://github.com/retrofit-lab/ashrae-1836-rp-categorization). 
-- The file [nrel-wcms-draft.csv](data/nrel-wcms-draft.csv) contains a list of draft WCM names that were provided to the authors by the National Renewable Energy Lab and are intended for use in [BuildingSync](https://buildingsync.net/). 
+- The file [nrel-wcms-draft.csv](data/nrel-wcms-draft.csv) contains a list of draft WCM names that were provided to the authors by the National Renewable Energy Lab (NREL) and are intended for use in [BuildingSync](https://buildingsync.net/) (Xiong, Jie, Lauren Adams, and Nicholas Long. 2022. “Draft Water Conservation Measures for BuildingSync.” National Renewable Energy Laboratory).
 
 The measure name files contain five variables (use these headers if you want to analyze your own list of measure names): 
 - `eem_id`: A unique ID assigned to each measure in the list.
