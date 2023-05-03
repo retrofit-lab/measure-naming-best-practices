@@ -281,3 +281,11 @@ The results are then summarized as the total number of errors for each category 
 	   
 Results for key tables are output as .csv files in the `/results/` directory. 	   
 	   
+#### Comparison with manual results
+The ability to find common errors using the script is limited by the scope and use of the search terms. Therefore, the final identification of common errors came from a manual review of WCM names completed with the aid of the text mining script results. For comparison, the manually identified common errors are listed in the the [measure-list-errors-manual.csv](results/measure-list-errors-manual.csv) file. Some notes: 
+
+- The script results and manual results approximately match for Common Errors #1, #3, and #4. 
+- The script results for Common Errors #5 and #6 overcount the error compared to the manual results. These measures do contain verbs (CE #5) or elements (CE #6), but the verbs or elements are not present in the list of search terms (which was developed based on the 1836-RP EEMs). For example, "ice machine" is an element present in the WCMs, but not in the 1836-RP EEMs. So, WCMs with this element get flagged by the script as missing an element.   
+- The script results for Common Errors #7, and #8 undercount the error compared to the manual results. These measures do contain vague terms (CE #7) or synonymous terms (CE #8), but the terms are not present in the list of search terms (which was developed based on the 1836-RP EEMs). For example, the vague term "user-friendly" is present in the WCMs, but was not in the 1836-RP EEMs. So, WCMs with this vague term do not get flagged by the script as containing a vague term.   
+- Common Error #2 was not able to be evaluated using the script and was only evaluated manually. 
+	   
