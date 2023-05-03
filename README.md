@@ -14,7 +14,7 @@ Khanuja, Apoorv, and Amanda Webb. 2023. “An EEM by Any Other Name: Best Practi
 
 ## Related Publications
 - Khanuja, Apoorv, and Amanda L. Webb. 2023. “What We Talk about When We Talk about EEMs: Using Text Mining and Topic Modeling to Understand Building Energy Efficiency Measures (1836-RP).” Science and Technology for the Built Environment 29 (1): 4–18. https://doi.org/10.1080/23744731.2022.2133329.
-- [Webb, Amanda, and Apoorv Khanuja. 2023. “Developing a Standardized Categorization System for Energy Efficiency Measures.” Final Report RP-1836. ASHRAE.](https://www.techstreet.com/ashrae/standards/rp-1836-developing-a-standardized-categorization-system-for-energy-efficiency-measures?product_id=2255440)
+- [Webb, Amanda, and Apoorv Khanuja. 2023. “Developing a Standardized Categorization System for Energy Efficiency Measures.” Final Report RP-1836. ASHRAE.](https://www.techstreet.com/ashrae/standards/rp-1836-developing-a-standardized-categorization-system-for-energy-efficiency-measures?product_id=2255440) (ASHRAE members can access for free from the [ASHRAE Technology Portal](https://www.ashrae.org/technical-resources/technology-portal))
 
 ## Repository Structure
 The repository is divided into three directories:
